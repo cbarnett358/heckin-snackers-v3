@@ -1,0 +1,57 @@
+/****************************** Main Colors ******************************/
+/****************************** Main Body Styles ******************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #cf89ac;
+}
+body h1 {
+  font-family: program, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ceebf0;
+}
+
+.content-container {
+  width: 100%;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  color: black;
+}
+
+.material-symbols-outlined {
+  color: #cf89ac;
+  font-size: 2.5em !important;
+}
+
+/****************************** Site Header ******************************/
+.header-content-right {
+  margin-left: auto;
+}
+
+.hs-logo {
+  width: 150px;
+}
+
+/****************************** Other Styles ******************************/
+.card {
+  background-color: #ceebf0;
+  color: #cf89ac;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px #27ae60;
+}
+
+/*# sourceMappingURL=styles.css.map */

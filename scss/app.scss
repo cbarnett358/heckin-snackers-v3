@@ -1,0 +1,71 @@
+// In app.scss
+@import '_variables';
+@import '_mixins';
+
+/****************************** Main Colors ******************************/
+
+$primary-color: #cf89ac;
+$secondary-color: #8c6e64;
+$tertiary-color: #ceebf0;
+$warning-color: #e74c3c;
+$success-color: #27ae60;
+$error-color: #c0392b;
+
+/****************************** Main Body Styles ******************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+  background-color: $primary-color;
+
+  h1 {
+    font-family: program, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: $tertiary-color
+  }
+}
+
+.content-container {
+  width: 100%;
+  height: 100vh;
+}
+  
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  color: black;
+}
+
+.material-symbols-outlined {
+  color: $primary-color;
+  font-size: 2.5em!important;
+}
+
+/****************************** Site Header ******************************/
+
+.header-content-right {
+  margin-left: auto;
+}
+
+.hs-logo {
+  width: 150px;
+}
+
+/****************************** Other Styles ******************************/
+
+.card {
+  background-color: $tertiary-color;
+  color: $primary-color;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  @include box-shadow($success-color);
+}
