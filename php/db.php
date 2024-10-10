@@ -15,7 +15,7 @@ try {
     $pdo = new PDO($dsn);
     // Set error mode to exception
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
-    print "Connected to Supabase successfully!";
+    // print "Connected to Supabase successfully!";
 } catch (PDOException $e) {
     print "Connection failed: " . $e->getMessage();
 }

@@ -1,7 +1,7 @@
 
 # Heckin' Snackers Storefront
 
-![Logo](https://heckin-snackers.web.app/images/dog.gif)
+![Logo](https://heckin-snackers.web.app/images/heckinwhite.png)
 
 Heckin’ Snackers is a fictional brand that provides fresh and heckin’ delicious snacks and food your dog will adore, guaranteed! Everything is organically sourced from the USA and will leave your pup heckin’ happy! The logo, flavors, and color scheme were; influenced by my very own dog Winston! The site was developed using Vue 3, Quasar, Firestore, and Stripe. All orders get stored in Firestore with either “pending” or “complete” depending on checkout progress.
 

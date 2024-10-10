@@ -10,10 +10,38 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" /><body>
 </head>
     <header>
-        <img src="./assets/images/hs-logo.png" alt="Hcekin Snackers Logo" class="hs-logo">
-        <div class="header-content-right">
-            <!-- material icon shopping cart -->
-            <span class="material-symbols-outlined">search</span>        
-            <span class="material-symbols-outlined">shopping_basket</span>        
+        <div class="header-content">
+            <img src="./assets/images/hs-logo.png" alt="Hcekin Snackers Logo" class="hs-logo">
+            <div class="header-content-right">
+                <!-- material icon shopping cart -->
+
+                <div> 
+                <div id="main">
+                        <span class="material-symbols-outlined">search</span>        
+                        <span class="material-symbols-outlined" onclick="openNav()">shopping_basket</span>
+                </div>
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#">Clients</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
+    
+
+    
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
