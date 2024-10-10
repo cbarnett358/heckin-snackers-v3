@@ -1,9 +1,2 @@
 # Set the default behavior to automatically normalize line endings.
 * text=auto
-
-# Explicitly define line endings for specific file types if needed
-*.sh     text eol=lf         # Shell scripts should use LF
-*.bat    text eol=crlf       # Batch files should use CRLF
-*.php    text                 # PHP files can use auto line endings
-*.css    text                 # CSS files can use auto line endings
-*.js     text                 # JavaScript files can use auto line endings

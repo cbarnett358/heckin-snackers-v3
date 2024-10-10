@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Heckin Snackers</title>
+    <base href="/HECKIN-SNACKERS/"> <!-- This is is so the css can be found on each page without needing ../ -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://use.typekit.net/xgk8yrx.css" />

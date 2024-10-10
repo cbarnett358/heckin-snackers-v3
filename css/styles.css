@@ -45,13 +45,17 @@ header {
 }
 
 /****************************** Other Styles ******************************/
-.card {
-  background-color: #ceebf0;
-  color: #cf89ac;
+.product-card-images {
+  width: 150px;
+}
+
+.product-card {
+  background-color: #f4f4f4;
+  color: #8c6e64;
   padding: 20px;
-  margin: 20px;
   border-radius: 5px;
-  box-shadow: 0 2px 4px #27ae60;
+  width: 550px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,5 +1,7 @@
-<?php include_once  './components/header.php'; ?>
-<?php require './php/db.php'; ?>
+<?php 
+include_once  './components/header.php';
+require './php/db.php'; 
+?>
 
 <div class="content-container">
     <?php include './components/products.php'; ?>
@@ -14,5 +16,4 @@
 </html>
 
 <?php
-
 ?>

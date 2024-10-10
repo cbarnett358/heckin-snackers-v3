@@ -60,12 +60,14 @@ header {
 }
 
 /****************************** Other Styles ******************************/
-
-.card {
-  background-color: $tertiary-color;
-  color: $primary-color;
+.product-card-images {
+  width: 150px;
+}
+.product-card {
+  background-color: #f4f4f4;
+  color: $secondary-color;
   padding: 20px;
-  margin: 20px;
   border-radius: 5px;
-  @include box-shadow($success-color);
+  width: 550px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
